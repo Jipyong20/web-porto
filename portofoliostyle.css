@@ -376,6 +376,20 @@ h3{
     border-radius: 5px;
 }
 
+/* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
+@media only screen and (max-width: 900px) {
+    .project-image-box {
+        width: 80%;
+    }
+}
+
+/* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
+@media only screen and (max-width: 540px) {
+    .project-image-box {
+        width: 100%;
+    }
+}
+
 /* ----- PROJECTS BOX ----- */
 .project-container{
     display: flex;
