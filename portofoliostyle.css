@@ -344,16 +344,27 @@ h3{
     font-size: 15px;
     color: #777;
 }
-.about-btn button{
+.about-btn{
     position: absolute;
-    right: 20px;
-    bottom: 20px;
-    background: var(--first-color);
+    bottom: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
     color: var(--color-white);
-    border-radius: 30px;
+    background: var(--third-color);
+    border-radius: 25px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    transition: .4s;
+    z-index: 100; /* Ensure it is on top */
 }
-.about-btn button:hover{
-    background: var(--first-color-hover);
+.about-btn i{
+    font-size: 18px;
+    margin-left: 5px;
+}
+.about-btn:hover{
+    transform: translateY(10px);
 }
 
 /* ----- ABOUT / SKILLS BOX ----- */
