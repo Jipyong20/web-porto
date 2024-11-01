@@ -17,6 +17,56 @@
     --first-shadow-color: rgba(0, 0, 0, 0.1);
 
 }
+:root {
+    --body-color: #121212;
+    --color-white: #ffffff;
+    --text-color-second: #999999;
+    --text-color-third: #1e9fab;
+    --first-color: #bb86fc;
+    --first-color-hover: #3700b3;
+    --second-color: #03dac5;
+    --third-color: #ffbb33;
+    --first-shadow-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Update background color for body */
+body {
+    background: var(--body-color);
+    color: var(--text-color-second);
+}
+
+/* Update global button colors */
+.btn, .project-btn, .about-btn, .form-button > .btn {
+    background: var(--first-color);
+    color: var(--color-white);
+}
+.btn:hover, .project-btn:hover, .about-btn:hover, .form-button > .btn:hover {
+    background: var(--first-color-hover);
+    color: var(--color-white);
+}
+
+/* Darker background for scroll button */
+.scroll-btn {
+    background: #333;
+    color: var(--text-color-second);
+}
+
+/* Modify featured image background */
+.image {
+    box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 0.15);
+}
+
+/* Darker background for cards */
+.project-box, .contact-info, .about-info {
+    background: #1e1e1e;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+}
+
+/* Update footer background and text colors */
+footer {
+    background: #212121;
+    color: var(--text-color-second);
+}
 
 /* ----- BASE ----- */
 *{
@@ -54,7 +104,7 @@ html{
 .btn{
     font-weight: 500;
     padding: 12px 20px;
-    background: #efefef;
+    background: #1e9fab;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -236,7 +286,7 @@ nav{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 0.25);
     cursor: pointer;
 }
 .icon:hover{
@@ -285,7 +335,7 @@ nav{
    color: var(--text-color-second);
    background: var(--color-white);
    border-radius: 30px;
-   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+   box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.25);
 }
 .scroll-btn i{
     font-size: 20px;
@@ -317,7 +367,7 @@ nav{
     margin-bottom: 10px;
 }
 .top-header span{
-    color: #999;
+    color: #adadad;
 }
 h3{
     font-size: 20px;
@@ -342,7 +392,7 @@ h3{
 .about-info p{
     text-align: center;
     font-size: 15px;
-    color: #777;
+    color: #a658ff;
 }
 .about-btn{
     position: absolute;
@@ -354,7 +404,7 @@ h3{
     color: var(--color-white);
     background: var(--third-color);
     border-radius: 25px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.25);
     text-decoration: none;
     transition: .4s;
     z-index: 100; /* Ensure it is on top */
@@ -429,7 +479,7 @@ h3{
 }
 .project-box label{
     font-size: 15px;
-    color: #777;
+    color: #ba71ff;
 }
 .project-box::after, .contact-info::after{
     content: "";
@@ -487,7 +537,7 @@ h3{
 .contact-info:hover.contact-info h2,
 .contact-info:hover.contact-info p,
 .contact-info:hover.contact-info i{
-    color: #777;
+    color: #d698ff;
     z-index: 2;
 }
 
