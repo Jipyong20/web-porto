@@ -7,12 +7,12 @@
     --color-white: rgb(255, 255, 255);
 
     --text-color-second: rgb(68, 68, 68);
-    --text-color-third: #1e9fab;
+    --text-color-third: #00C9FF;
 
     --first-color: rgb(110, 87, 224);
     --first-color-hover: rgb(40, 91, 212);
 
-    --second-color: rgb(0, 201, 255);
+    --second-color: #00c9ff;
     --third-color: rgb(192, 166, 49);
     --first-shadow-color: rgba(0, 0, 0, 0.1);
 
@@ -21,7 +21,7 @@
     --body-color: #121212;
     --color-white: #ffffff;
     --text-color-second: #999999;
-    --text-color-third: #1e9fab;
+    --text-color-third: #00C9FF;
     --first-color: #bb86fc;
     --first-color-hover: #3700b3;
     --second-color: #03dac5;
@@ -104,7 +104,7 @@ html{
 .btn{
     font-weight: 500;
     padding: 12px 20px;
-    background: #1e9fab;
+    background: #00C9FF;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -474,7 +474,7 @@ h3{
 }
 .project-box>i{
     font-size: 50px;
-    color: #00B5E7;
+    color: #00C9FF;
     margin-bottom: 25px;
 }
 .project-box label{
@@ -580,7 +580,7 @@ textarea{
     color: var(--color-white);
 }
 .form-button>.btn:hover{
-    background: #00B5E7;
+    background: #00C9FF;
 }
 .form-button i{
     font-size: 18px;
